@@ -12,6 +12,15 @@ header{
     grid-row: 1;
     position: sticky;
     margin: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+
+    /* header a{
+
+        
+    } */
 }
 .action-header{
     /* background-color: var(--primary-color); */
@@ -19,7 +28,7 @@ header{
 }
 
 
-.bottom-nav{
+nav{
     background-color: var(--primary-color);
     /* grid-column: span; */
     grid-row: 7/7;
@@ -27,7 +36,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+   
 
 }
  
