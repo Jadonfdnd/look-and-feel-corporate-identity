@@ -9,9 +9,10 @@
     <header>
         <nav class="action-header"> <!--add icons for like, dislike and save-->
                 <a href="#TODO"><img class="back-icon" src="assets/icons/back-icon.svg" alt="Back"> </a>
+                <a href="#TODO"><img class="plus-icon" src="assets/icons/back-icon.svg" alt="Back"> </a>
         </nav>
-
     </header>
+   
     <main>
         <form>
             <label>New snappmap in Vondelpark:</label>
@@ -20,9 +21,18 @@
         <form>
             <label>Allow snapps to be added from/till</label>
             <br>
-            <input type="datetime" placeholder="start" class="datetime-input">
+            <input type="date" class="datetime-input">
             <label></label>
-            <input type="datetime" placeholder="end" class="datetime-input">
+            <input type="date" class="datetime-input">
+        </form>
+
+        <form>
+            <label class="checkbox-label">
+            <input type="checkbox" checked>
+            Allow uploads from roll
+        </label>
+        
+        <button type="submit" class="create-button">Create</button>
         </form>
 
 
