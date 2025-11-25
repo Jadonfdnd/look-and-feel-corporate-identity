@@ -6,25 +6,61 @@ body {
     grid-template-rows: 1fr 5fr 1fr;
     
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+}
+
+main img{
+    grid-column: 2/3;
+
+}
+
+.image-tags{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    list-style: none; /* Removes the default bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Allows list items to sit side-by-side */
+    gap: 10px;
+}
+
+.image-tags li {
+    /*pill shape */
+    border-radius: 50px; 
+    background-color: #e0e5e9; /* Light grey background */
+    color: #334e5e; /* Darker text color */
+    padding: 8px 15px; /* vertical and horizontal padding */
+   
+}
+
+footer{
+    justify-self: center;
+   
+}
+
+
 
 header{
     background-color: var(--primary-color);
     grid-row: 1;
     position: static;
-    top: 0;
+    
     
     width: 100%;
     display: grid;
     grid-template-columns: auto 1fr auto auto auto;
     align-items: center;
-    padding: 0 15px;
-    color: white;
+    padding: 0;
+    /* color: white; */
    
 
 }
 
 header form{
-    padding: 1em;
+    padding: 1.5em;
 }
 header form:nth-of-type(1) {
     grid-column: 3 / 4; 
@@ -68,9 +104,11 @@ header form:nth-of-type(3) {
 
 nav{
     background-color: var(--primary-color);
-    grid-column: span;
+    grid-row: auto;
     position: sticky;
+    
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
    
@@ -83,15 +121,14 @@ nav a{
 }
 
 main img{
-    border-radius: 5px;
     max-width: fit-content;
     align-self: center;
 }
 
-.image-tags{
+/* .image-tags{
    background-color: white;
     border-radius: 6px;
     color: black;
     width: 75px;
     text-align: right; 
-}
+} */
