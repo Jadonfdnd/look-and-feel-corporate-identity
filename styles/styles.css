@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background: var(--primary-color);
     background-color: #f7f7f7;
@@ -47,13 +51,15 @@ header{
     background-color: var(--primary-color);
     grid-row: 1;
     position: static;
+    height: 6em;
+
     
     
     width: 100%;
     display: grid;
     grid-template-columns: auto 1fr auto auto auto;
     align-items: center;
-    padding: 0;
+    
     /* color: white; */
    
 
@@ -122,7 +128,9 @@ nav a{
 
 main img{
     max-width: fit-content;
-    align-self: center;
+    /* align-self: center; */
+    top: 0;
+    
 }
 
 /* .image-tags{
