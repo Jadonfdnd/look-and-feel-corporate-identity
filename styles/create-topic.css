@@ -61,7 +61,7 @@ header{
 .date-form .text-input,
 .date-form .full-span {
     grid-column: 1 / -1; /* Start at the first column line, end at the last */
-    width: auto; /* Grid handles the sizing */
+    width: 500px; /* Grid handles the sizing */
 }
 
 .date-form label:empty {
