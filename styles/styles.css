@@ -120,6 +120,12 @@ header{
 
 }
 
+button{
+    /* remove styling button so only svg shows */
+    appearance: none;
+    background: none;
+    background-color: transparent;
+}
 
 
 header form{
