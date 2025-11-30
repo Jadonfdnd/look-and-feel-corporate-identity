@@ -16,8 +16,8 @@ https://jadonfdnd.github.io/look-and-feel-corporate-identity/
 ## Kenmerken
 
 HTML Structuur
-- <header>: Bevat de primaire navigatie-elementen zoals de back-knop en de interactiebuttons (Like, Tomato, Star).
-- <main>: De hoofdcontainer voor de content, zoals de fotogalerij of de detailpagina.
+- Header: Bevat de primaire navigatie-elementen zoals de back-knop en de interactiebuttons (Like, Tomato, Star).
+- Main: De hoofdcontainer voor de content, zoals de fotogalerij of de detailpagina.
 - .metadata-wrapper: Een div op de detailpagina om de tags (ul.image-tags) en de tijd/datum (time.photo-datetime) te groeperen voor een responsive layout.
 
 CSS
